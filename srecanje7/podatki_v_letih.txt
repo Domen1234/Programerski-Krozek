@@ -1,0 +1,5 @@
+Miha, 19.5
+Janez, 28.75
+Krneki, 47.25
+Blablabla, 56.5
+Domen, 10.25

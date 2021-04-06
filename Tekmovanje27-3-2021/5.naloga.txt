@@ -1,0 +1,7 @@
+Najprej bi vzel lonec z največnim premerom in potem bi pokiskal lonec,
+ki ima premer najmanj različen od prejšnjega lonca in bi ga shranil v seznam.
+To bi ponavljal dokler ne bi prišel do najmanjšega lonca.
+Potem bi pa ta postopek ponovil še z lonci, ki so ostali dokler ne bi nobeden več ostal.
+V vseh seznamih, ki bi jih na koncu dobil, bi v njih poiskal največlo številko (premera dna lonca) in te številke seštelseštel.
+Tko bi dobil vsoto največjih.
+

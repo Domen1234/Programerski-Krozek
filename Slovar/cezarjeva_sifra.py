@@ -63,3 +63,5 @@ def desifriraj(beseda, k):
 
 print(zasifriraj("krneki bla bla bla.", 2))
 print(desifriraj("mtpgmk dnc dnc dnc.", 2))
+
+# Dodam komentar

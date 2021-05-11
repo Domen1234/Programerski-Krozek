@@ -171,7 +171,6 @@ sez = []
 for i in dolzine:
     for krneki in range(i):
         sez.append(random.randint(0, 1000000))
-    #print(sez)
     cas = time.time()
     urejenje_z_zlivanje(sez)
     print(i, time.time() - cas)

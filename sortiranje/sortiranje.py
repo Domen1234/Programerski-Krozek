@@ -144,7 +144,7 @@ def merge(seznam1, seznam2):
 seznam = [3, 6, 2, 1, 7, 4, 5, 9, 8, 12, 3]
 
 
-def urejenje_z_zlivanje(seznam):
+def urejenje_z_zlivanjem(seznam):  # Urejanje z merge
     cas = time.time()
     nov = []
     for i in seznam:
@@ -163,16 +163,13 @@ def urejenje_z_zlivanje(seznam):
     return nov[0], time.time() - cas
 
 
-#print(urejenje_z_zlivanje(seznam))
+#print(urejenje_z_zlivanjem(seznam))
 
-
-dolzine = [10, 100, 1000, 10000, 100000, 1000000]
+dolzine = [10, 100, 1000, 10000, 100000, 1000000, 10000000]
 sez = []
 for i in dolzine:
     for krneki in range(i):
         sez.append(random.randint(0, 1000000))
     cas = time.time()
-    urejenje_z_zlivanje(sez)
+    urejenje_z_zlivanjem(sez)
     print(i, time.time() - cas)
-
-
